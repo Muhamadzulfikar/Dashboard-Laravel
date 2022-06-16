@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.aside-list{
+    @apply flex justify-center items-center text-white w-full text-xl p-2 rounded mb-2 hover:bg-gray-600
+ }
+ 
+ .aside-list-active{
+     @apply bg-gray-600 opacity-95 backdrop-blur-xl
+ }
+ 
+ .dashboard-header{
+     @apply  bg-gradient-to-r from-yellow-200 to-yellow-300 p-5 flex justify-between
+ }
+ 
+ .burger-button{
+     @apply flex flex-col w-8 h-8 rounded justify-between lg:hidden z-10
+ }
+ 
+ .dashboard-field{
+     @apply bg-gray-50 pt-10 text-lg lg:text-xl p-6
+ }
+ 
+ .field-container{
+     @apply flex flex-col mb-8 lg:mb-16
+ }
+ 
+ .field-container label{
+     @apply pb-3 pl-7
+ }
+ 
+ .field-container input{
+     @apply p-2 lg:p-4 bg-gray-200 rounded-full
+ }
+ 
+ .button-container{
+     @apply text-right mt-14 lg:mt-24
+ }
+ 
+ .button-container button{
+     @apply w-32 h-12 mr-5 text-lg lg:text-xl rounded-full text-white p-2
+ }
+ 
+ .btn-tambahAnggota{
+     @apply  cursor-pointer hover:opacity-80 bg-primary w-40 lg:w-48 h-12 mr-5 text-base lg:text-lg rounded-xl text-white p-2 flex items-center justify-around
+ }
+ 
+ .table-header{
+     @apply text-xs text-gray-700 uppercase bg-gray-50 
+ }
+ 
+ .table-header th{
+     @apply px-6 py-3
+ }
+ 
+ .table-row {
+     @apply bg-white border-b
+ }
+ 
+ .table-row td{
+     @apply px-6 py-4
+ }
+ 
+ .first-table-row{
+     @apply px-6 py-4 font-medium text-gray-900 whitespace-nowrap
+ }
